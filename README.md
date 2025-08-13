@@ -72,7 +72,9 @@ Supports adding employees, applying for leave, approving/rejecting leave, and ch
 - Leaves cannot be applied for **past dates**.  
 - Joining date in future is allowed but flagged.  
 - Email is **unique for each employee**.  
-- Only **Pending leave requests** can be approved or rejected.  
+- Only **Pending leave requests** can be approved or rejected.
+- Multiple admins and employees can access concurrently.
+- Sensitive employee data is stored securely. 
 
 ---
 
@@ -96,5 +98,8 @@ Supports adding employees, applying for leave, approving/rejecting leave, and ch
 - **Authentication & Roles**: Add admin and employee login  
 - **Notifications**: Email/SMS notifications for leave approvals  
 - **Audit Logs**: Track all actions for accountability  
-- **Reporting**: Monthly leave summary per employee  
-- **Database Upgrade**: Move from SQLite to MySQL/PostgreSQL for multi-user deployments  
+- **Reporting**: Monthly leave summary per employee
+- **Predictive analytics**: forecast leave shortages or peak periods.
+- **Database Upgrade**: Move from SQLite to MySQL/PostgreSQL for multi-user deployments
+- Daily DB backups with automatic recovery procedures.
+- Multi-region deployment for high availability.

@@ -19,7 +19,7 @@ Supports adding employees, applying for leave, approving/rejecting leave, and ch
 
 1. **Clone or download the project**  
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/PAVANHN18/LMS.git
    cd LeaveManagementSystem
    ```
 
